@@ -18,15 +18,15 @@ jdbc.driverClass=com.mysql.jdbc.Driver
 jdbc.connectionURL=jdbc:mysql://127.0.0.1:3306/andriod?characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull  
 jdbc.userId=root  
 jdbc.password=123456  
-2. 修改/增加generatorConfig.xml中的<table></table>标签（有几张表就写几个）  
+2. 修改/增加generatorConfig.xml中的table标签（有几张表就写几个，注意闭合标签）  
 例如以下格式：  
-  <table tableName="uri_user_info"  
+  table tableName="uri_user_info"  
                enableCountByExample="false"  
                enableUpdateByExample="false"  
                enableDeleteByExample="false"  
                enableSelectByExample="false"  
                selectByExampleQueryId="false"  
                domainObjectName="UriUserInfoEntity">  
-  </table>
+  /table
 
 

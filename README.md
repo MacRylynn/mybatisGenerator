@@ -12,7 +12,7 @@
  -----------------------------------------------------------------------------------------------------------------------------
 ## 使用方式
 1. 修改generator.properties文件中的数据库相关信息  
-例如以下格式：  
+例如以下格式（driverLocation是jar包的位置，可以在网上自行下载）：  
 jdbc.driverLocation=D:/Program Files/apache-maven-3.5.3/repository/mysql/mysql-connector-java/5.1.8/mysql-connector-java-5.1.8.jar  
 jdbc.driverClass=com.mysql.jdbc.Driver  
 jdbc.connectionURL=jdbc:mysql://127.0.0.1:3306/andriod?characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull  

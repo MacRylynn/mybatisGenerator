@@ -79,15 +79,15 @@
 
         </javaClientGenerator>
 
-        <table tableName="crl_loan_fee_records"
+        <table tableName="ma_task_flow_data"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
                enableSelectByExample="false"
                selectByExampleQueryId="false"
-               domainObjectName="CrlLoanFeeRecordsEntity">
+               domainObjectName="MaTaskFlowData">
+            <columnOverride column="biz_data" jdbcType="VARCHAR" />
         </table>
-
 
 
     </context>
